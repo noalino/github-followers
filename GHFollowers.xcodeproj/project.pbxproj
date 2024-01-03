@@ -70,22 +70,54 @@
 		50715C7B2B444CC700851210 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				50715C7C2B444CC700851210 /* AppDelegate.swift */,
-				50715C7E2B444CC700851210 /* SceneDelegate.swift */,
-				50715C942B44618C00851210 /* GFButton.swift */,
-				50715C962B44650000851210 /* GFTextField.swift */,
-				50715C982B4550C100851210 /* FollowerListVC.swift */,
-				50715C902B44570500851210 /* SearchVC.swift */,
-				50715C922B44576300851210 /* FavoritesListVC.swift */,
+				50715CA52B45A9CA00851210 /* CustomViews */,
+				50715CA62B45A9F700851210 /* Extensions */,
+				50715CA42B45A94F00851210 /* Screens */,
+				50715CA72B45AA5300851210 /* Support */,
 				50715C852B444CC800851210 /* Assets.xcassets */,
-				50715C872B444CC800851210 /* LaunchScreen.storyboard */,
 				50715C8A2B444CC800851210 /* Info.plist */,
-				50715C9C2B459D1F00851210 /* GFTitleLabel.swift */,
-				50715C9E2B459F2000851210 /* GFBodyLabel.swift */,
-				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
-				50715CA22B45A58E00851210 /* UIViewController+Ext.swift */,
+				50715C872B444CC800851210 /* LaunchScreen.storyboard */,
 			);
 			path = GHFollowers;
+			sourceTree = "<group>";
+		};
+		50715CA42B45A94F00851210 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				50715C922B44576300851210 /* FavoritesListVC.swift */,
+				50715C982B4550C100851210 /* FollowerListVC.swift */,
+				50715C902B44570500851210 /* SearchVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		50715CA52B45A9CA00851210 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
+				50715C942B44618C00851210 /* GFButton.swift */,
+				50715C962B44650000851210 /* GFTextField.swift */,
+				50715C9C2B459D1F00851210 /* GFTitleLabel.swift */,
+				50715C9E2B459F2000851210 /* GFBodyLabel.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		50715CA62B45A9F700851210 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				50715CA22B45A58E00851210 /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		50715CA72B45AA5300851210 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				50715C7C2B444CC700851210 /* AppDelegate.swift */,
+				50715C7E2B444CC700851210 /* SceneDelegate.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
