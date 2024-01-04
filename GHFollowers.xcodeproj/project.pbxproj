@@ -23,6 +23,7 @@
 		50715CAA2B45B5B400851210 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CA92B45B5B400851210 /* Follower.swift */; };
 		50715CAC2B45B66800851210 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CAB2B45B66800851210 /* User.swift */; };
 		50715CAF2B469C6500851210 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CAE2B469C6500851210 /* NetworkManager.swift */; };
+		50715CB22B46AA1E00851210 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CB12B46AA1E00851210 /* ErrorMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		50715CA92B45B5B400851210 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		50715CAB2B45B66800851210 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		50715CAE2B469C6500851210 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		50715CB12B46AA1E00851210 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				50715CA82B45B55D00851210 /* Model */,
 				50715CA42B45A94F00851210 /* Screens */,
 				50715CA72B45AA5300851210 /* Support */,
+				50715CB02B46AA0B00851210 /* Utilities */,
 				50715C852B444CC800851210 /* Assets.xcassets */,
 				50715C8A2B444CC800851210 /* Info.plist */,
 				50715C872B444CC800851210 /* LaunchScreen.storyboard */,
@@ -143,6 +146,14 @@
 				50715CAE2B469C6500851210 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		50715CB02B46AA0B00851210 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				50715CB12B46AA1E00851210 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 				50715CA32B45A58E00851210 /* UIViewController+Ext.swift in Sources */,
 				50715C912B44570500851210 /* SearchVC.swift in Sources */,
 				50715CA12B459FEE00851210 /* GFAlertVC.swift in Sources */,
+				50715CB22B46AA1E00851210 /* ErrorMessage.swift in Sources */,
 				50715C9F2B459F2000851210 /* GFBodyLabel.swift in Sources */,
 				50715CAA2B45B5B400851210 /* Follower.swift in Sources */,
 				50715C9D2B459D1F00851210 /* GFTitleLabel.swift in Sources */,
