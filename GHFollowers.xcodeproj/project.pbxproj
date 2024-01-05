@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CD8AA2B4806AE003AE752 /* UIHelper.swift */; };
 		50715C7D2B444CC700851210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715C7C2B444CC700851210 /* AppDelegate.swift */; };
 		50715C7F2B444CC700851210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715C7E2B444CC700851210 /* SceneDelegate.swift */; };
 		50715C862B444CC800851210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50715C852B444CC800851210 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		505CD8AA2B4806AE003AE752 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		50715C792B444CC700851210 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50715C7C2B444CC700851210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50715C7E2B444CC700851210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				50715CB12B46AA1E00851210 /* ErrorMessage.swift */,
+				505CD8AA2B4806AE003AE752 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				50715C932B44576300851210 /* FavoritesListVC.swift in Sources */,
 				50715C952B44618C00851210 /* GFButton.swift in Sources */,
 				50715CA32B45A58E00851210 /* UIViewController+Ext.swift in Sources */,
+				505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */,
 				50715CB72B46E5ED00851210 /* GFAvatarImageView.swift in Sources */,
 				50715C912B44570500851210 /* SearchVC.swift in Sources */,
 				50715CA12B459FEE00851210 /* GFAlertVC.swift in Sources */,
