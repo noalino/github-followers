@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5031BCF52B499C560056E6F2 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */; };
 		505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CD8AA2B4806AE003AE752 /* UIHelper.swift */; };
 		50715C7D2B444CC700851210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715C7C2B444CC700851210 /* AppDelegate.swift */; };
 		50715C7F2B444CC700851210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715C7E2B444CC700851210 /* SceneDelegate.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		505CD8AA2B4806AE003AE752 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		50715C792B444CC700851210 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50715C7C2B444CC700851210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5031BCEE2B499BAD0056E6F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5031BCEF2B499BB60056E6F2 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				50715C942B44618C00851210 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		5031BCF02B499BBD0056E6F2 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				50715C962B44650000851210 /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		5031BCF12B499BC90056E6F2 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				50715CB62B46E5ED00851210 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		5031BCF22B499BEB0056E6F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5031BCF32B499BF70056E6F2 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				50715C9C2B459D1F00851210 /* GFTitleLabel.swift */,
+				50715C9E2B459F2000851210 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		50715C702B444CC700851210 = {
 			isa = PBXGroup;
 			children = (
@@ -109,13 +160,13 @@
 		50715CA52B45A9CA00851210 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				5031BCEF2B499BB60056E6F2 /* Buttons */,
 				50715CB32B46E52C00851210 /* Cells */,
-				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
-				50715C942B44618C00851210 /* GFButton.swift */,
-				50715C962B44650000851210 /* GFTextField.swift */,
-				50715C9C2B459D1F00851210 /* GFTitleLabel.swift */,
-				50715C9E2B459F2000851210 /* GFBodyLabel.swift */,
-				50715CB62B46E5ED00851210 /* GFAvatarImageView.swift */,
+				5031BCF12B499BC90056E6F2 /* ImageViews */,
+				5031BCF32B499BF70056E6F2 /* Labels */,
+				5031BCF02B499BBD0056E6F2 /* TextFields */,
+				5031BCEE2B499BAD0056E6F2 /* Views */,
+				5031BCF22B499BEB0056E6F2 /* ViewControllers */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -260,6 +311,7 @@
 				50715CAF2B469C6500851210 /* NetworkManager.swift in Sources */,
 				50715C992B4550C100851210 /* FollowerListVC.swift in Sources */,
 				50715C7D2B444CC700851210 /* AppDelegate.swift in Sources */,
+				5031BCF52B499C560056E6F2 /* GFEmptyStateView.swift in Sources */,
 				50715C7F2B444CC700851210 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
