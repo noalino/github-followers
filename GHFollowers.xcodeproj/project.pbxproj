@@ -28,6 +28,9 @@
 		50715CB22B46AA1E00851210 /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CB12B46AA1E00851210 /* GFError.swift */; };
 		50715CB52B46E56A00851210 /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CB42B46E56A00851210 /* FollowerCell.swift */; };
 		50715CB72B46E5ED00851210 /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50715CB62B46E5ED00851210 /* GFAvatarImageView.swift */; };
+		5083A8B02B4C097000031422 /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083A8AF2B4C097000031422 /* GFUserInfoHeaderVC.swift */; };
+		5083A8B22B4C09FC00031422 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083A8B12B4C09FC00031422 /* GFSecondaryTitleLabel.swift */; };
+		5083A8B42B4C116700031422 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083A8B32B4C116700031422 /* Constants.swift */; };
 		50905E382B4AB45C00F0546A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50905E372B4AB45C00F0546A /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +58,9 @@
 		50715CB12B46AA1E00851210 /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 		50715CB42B46E56A00851210 /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		50715CB62B46E5ED00851210 /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		5083A8AF2B4C097000031422 /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		5083A8B12B4C09FC00031422 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
+		5083A8B32B4C116700031422 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50905E372B4AB45C00F0546A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
+				5083A8AF2B4C097000031422 /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -114,6 +121,7 @@
 			children = (
 				50715C9C2B459D1F00851210 /* GFTitleLabel.swift */,
 				50715C9E2B459F2000851210 /* GFBodyLabel.swift */,
+				5083A8B12B4C09FC00031422 /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;
 			sourceTree = "<group>";
@@ -215,6 +223,7 @@
 			children = (
 				50715CB12B46AA1E00851210 /* GFError.swift */,
 				505CD8AA2B4806AE003AE752 /* UIHelper.swift */,
+				5083A8B32B4C116700031422 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,14 +312,17 @@
 				50715C952B44618C00851210 /* GFButton.swift in Sources */,
 				50715CA32B45A58E00851210 /* UIViewController+Ext.swift in Sources */,
 				505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */,
+				5083A8B42B4C116700031422 /* Constants.swift in Sources */,
 				50715CB72B46E5ED00851210 /* GFAvatarImageView.swift in Sources */,
 				50715C912B44570500851210 /* SearchVC.swift in Sources */,
 				50715CA12B459FEE00851210 /* GFAlertVC.swift in Sources */,
 				50715CB52B46E56A00851210 /* FollowerCell.swift in Sources */,
 				50715CB22B46AA1E00851210 /* GFError.swift in Sources */,
+				5083A8B02B4C097000031422 /* GFUserInfoHeaderVC.swift in Sources */,
 				50715C9F2B459F2000851210 /* GFBodyLabel.swift in Sources */,
 				50715CAA2B45B5B400851210 /* Follower.swift in Sources */,
 				50715C9D2B459D1F00851210 /* GFTitleLabel.swift in Sources */,
+				5083A8B22B4C09FC00031422 /* GFSecondaryTitleLabel.swift in Sources */,
 				50715CAF2B469C6500851210 /* NetworkManager.swift in Sources */,
 				50715C992B4550C100851210 /* FollowerListVC.swift in Sources */,
 				50715C7D2B444CC700851210 /* AppDelegate.swift in Sources */,
