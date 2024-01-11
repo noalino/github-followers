@@ -5,7 +5,6 @@
 //  Created by Noalino on 07/01/2024.
 //
 
-import SafariServices
 import UIKit
 
 protocol UserInfoVCDelegate: class {
@@ -113,9 +112,7 @@ extension UserInfoVC: UserInfoVCDelegate {
             return
         }
 
-        let safariVC = SFSafariViewController(url: url)
-        safariVC.preferredControlTintColor = .systemGreen
-        present(safariVC, animated: true)
+        presentSafariVC(with: url)
     }
     
     func didTapGetFollowers(for user: User) {
