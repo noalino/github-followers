@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5011D12A2B4FFD3800E0CAD7 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011D1292B4FFD3800E0CAD7 /* Date+Ext.swift */; };
+		5011D12C2B4FFD7800E0CAD7 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5011D12B2B4FFD7800E0CAD7 /* String+Ext.swift */; };
 		5031BCF52B499C560056E6F2 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */; };
 		505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505CD8AA2B4806AE003AE752 /* UIHelper.swift */; };
 		506293F32B4E9D8C0010DD82 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506293F22B4E9D8C0010DD82 /* GFItemInfoView.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5011D1292B4FFD3800E0CAD7 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		5011D12B2B4FFD7800E0CAD7 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		505CD8AA2B4806AE003AE752 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		506293F22B4E9D8C0010DD82 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				50715CA22B45A58E00851210 /* UIViewController+Ext.swift */,
+				5011D1292B4FFD3800E0CAD7 /* Date+Ext.swift */,
+				5011D12B2B4FFD7800E0CAD7 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -329,6 +335,7 @@
 				50715CAC2B45B66800851210 /* User.swift in Sources */,
 				50715C972B44650000851210 /* GFTextField.swift in Sources */,
 				50715C932B44576300851210 /* FavoritesListVC.swift in Sources */,
+				5011D12C2B4FFD7800E0CAD7 /* String+Ext.swift in Sources */,
 				50715C952B44618C00851210 /* GFButton.swift in Sources */,
 				50715CA32B45A58E00851210 /* UIViewController+Ext.swift in Sources */,
 				505CD8AB2B4806AE003AE752 /* UIHelper.swift in Sources */,
@@ -345,6 +352,7 @@
 				50715C9F2B459F2000851210 /* GFBodyLabel.swift in Sources */,
 				50715CAA2B45B5B400851210 /* Follower.swift in Sources */,
 				50715C9D2B459D1F00851210 /* GFTitleLabel.swift in Sources */,
+				5011D12A2B4FFD3800E0CAD7 /* Date+Ext.swift in Sources */,
 				5083A8B22B4C09FC00031422 /* GFSecondaryTitleLabel.swift in Sources */,
 				50715CAF2B469C6500851210 /* NetworkManager.swift in Sources */,
 				50715C992B4550C100851210 /* FollowerListVC.swift in Sources */,
