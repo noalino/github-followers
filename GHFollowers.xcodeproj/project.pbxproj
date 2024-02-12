@@ -39,6 +39,7 @@
 		5083A8B22B4C09FC00031422 /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083A8B12B4C09FC00031422 /* GFSecondaryTitleLabel.swift */; };
 		5083A8B42B4C116700031422 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5083A8B32B4C116700031422 /* Constants.swift */; };
 		50905E382B4AB45C00F0546A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50905E372B4AB45C00F0546A /* UserInfoVC.swift */; };
+		50FBA5DC2B7B76CE008BA60C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		5083A8B12B4C09FC00031422 /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		5083A8B32B4C116700031422 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		50905E372B4AB45C00F0546A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				50715CB42B46E56A00851210 /* FollowerCell.swift */,
+				50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				50715CA12B459FEE00851210 /* GFAlertVC.swift in Sources */,
 				506293F92B4EB0EB0010DD82 /* GFFollowerItemVC.swift in Sources */,
 				506293F32B4E9D8C0010DD82 /* GFItemInfoView.swift in Sources */,
+				50FBA5DC2B7B76CE008BA60C /* FavoriteCell.swift in Sources */,
 				50715CB52B46E56A00851210 /* FollowerCell.swift in Sources */,
 				50715CB22B46AA1E00851210 /* GFError.swift in Sources */,
 				5083A8B02B4C097000031422 /* GFUserInfoHeaderVC.swift in Sources */,
