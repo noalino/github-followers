@@ -41,6 +41,7 @@
 		50905E382B4AB45C00F0546A /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50905E372B4AB45C00F0546A /* UserInfoVC.swift */; };
 		50FBA5DC2B7B76CE008BA60C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */; };
 		50FBA5DF2B7BA7E4008BA60C /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */; };
+		50FBA5E12B7CC5E8008BA60C /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		50905E372B4AB45C00F0546A /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 		50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
+		50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				5031BCF42B499C560056E6F2 /* GFEmptyStateView.swift */,
 				506293F22B4E9D8C0010DD82 /* GFItemInfoView.swift */,
+				50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				5083A8B02B4C097000031422 /* GFUserInfoHeaderVC.swift in Sources */,
 				50715C9F2B459F2000851210 /* GFBodyLabel.swift in Sources */,
 				50715CAA2B45B5B400851210 /* Follower.swift in Sources */,
+				50FBA5E12B7CC5E8008BA60C /* GFAlertContainerView.swift in Sources */,
 				50715C9D2B459D1F00851210 /* GFTitleLabel.swift in Sources */,
 				5011D12A2B4FFD3800E0CAD7 /* Date+Ext.swift in Sources */,
 				50228C392B5033D2006C041D /* PersistenceManager.swift in Sources */,
