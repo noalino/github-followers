@@ -12,7 +12,7 @@ protocol UserInfoVCDelegate: class {
     func didTapGetFollowers(for user: User)
 }
 
-class UserInfoVC: UIViewController {
+class UserInfoVC: GFDataLoadingVC {
 
     let dateLabel = GFBodyLabel(textAlignment: .center)
     let headerView = UIView()

@@ -41,6 +41,7 @@
 		50FBA5DC2B7B76CE008BA60C /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */; };
 		50FBA5DF2B7BA7E4008BA60C /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */; };
 		50FBA5E12B7CC5E8008BA60C /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */; };
+		50FBA5E32B7CD387008BA60C /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E22B7CD386008BA60C /* GFDataLoadingVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		50FBA5DB2B7B76CE008BA60C /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		50FBA5E22B7CD386008BA60C /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				506293FA2B4EB1550010DD82 /* ItemInfoVCs */,
 				50715CA02B459FEE00851210 /* GFAlertVC.swift */,
 				5083A8AF2B4C097000031422 /* GFUserInfoHeaderVC.swift */,
+				50FBA5E22B7CD386008BA60C /* GFDataLoadingVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -368,6 +371,7 @@
 				50715CB22B46AA1E00851210 /* GFError.swift in Sources */,
 				5083A8B02B4C097000031422 /* GFUserInfoHeaderVC.swift in Sources */,
 				50715C9F2B459F2000851210 /* GFBodyLabel.swift in Sources */,
+				50FBA5E32B7CD387008BA60C /* GFDataLoadingVC.swift in Sources */,
 				50715CAA2B45B5B400851210 /* Follower.swift in Sources */,
 				50FBA5E12B7CC5E8008BA60C /* GFAlertContainerView.swift in Sources */,
 				50715C9D2B459D1F00851210 /* GFTitleLabel.swift in Sources */,
