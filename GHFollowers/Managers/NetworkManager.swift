@@ -105,8 +105,8 @@ class NetworkManager {
 
         let task = URLSession.shared.dataTask(with: url) { [weak self] data, response, error in
             guard let self = self,
-                  error != nil,
                   let response = response as? HTTPURLResponse, response.statusCode == 200,
+                  error == nil,
                   let data = data,
                   let image = UIImage(data: data) else {
                 completed(nil)
