@@ -42,6 +42,7 @@
 		50FBA5DF2B7BA7E4008BA60C /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */; };
 		50FBA5E12B7CC5E8008BA60C /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */; };
 		50FBA5E32B7CD387008BA60C /* GFDataLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E22B7CD386008BA60C /* GFDataLoadingVC.swift */; };
+		50FBA5E52B7D0C6B008BA60C /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FBA5E42B7D0C6B008BA60C /* UIView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		50FBA5DE2B7BA7E4008BA60C /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 		50FBA5E02B7CC5E8008BA60C /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
 		50FBA5E22B7CD386008BA60C /* GFDataLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFDataLoadingVC.swift; sourceTree = "<group>"; };
+		50FBA5E42B7D0C6B008BA60C /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +224,7 @@
 			children = (
 				50715CA22B45A58E00851210 /* UIViewController+Ext.swift */,
 				5011D1292B4FFD3800E0CAD7 /* Date+Ext.swift */,
+				50FBA5E42B7D0C6B008BA60C /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FBA5E52B7D0C6B008BA60C /* UIView+Ext.swift in Sources */,
 				50715CAC2B45B66800851210 /* User.swift in Sources */,
 				50715C972B44650000851210 /* GFTextField.swift in Sources */,
 				50715C932B44576300851210 /* FavoritesListVC.swift in Sources */,
