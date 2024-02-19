@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol GFItemInfoVCDelegate: class {
+protocol GFItemInfoVCDelegate: AnyObject {
     func didTapGitHubProfile(for user: User)
 }
 
