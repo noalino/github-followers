@@ -41,7 +41,7 @@ class FavoritesListVC: GFDataLoadingVC {
 
     func getFavorites() {
         PersistenceManager.retrieveFavorites { [weak self] result in
-            guard let self = self else { return }
+            guard let self else { return }
 
             switch result {
             case .success(let favorites):
@@ -89,7 +89,7 @@ extension FavoritesListVC: UITableViewDelegate, UITableViewDataSource {
         guard editingStyle == .delete else { return }
 
         PersistenceManager.updateWith(favorite: favorites[indexPath.row], actionType: .remove) { [weak self] error in
-            guard let self = self else { return }
+            guard let self else { return }
             guard error == nil else {
                 DispatchQueue.main.async {
                     self.presentGFAlert(title: "Unable to remove", message: error?.rawValue ?? "Undefined", buttonTitle: "Ok")
